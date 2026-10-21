@@ -1,0 +1,7 @@
+sounddevice
+numpy
+requests
+faster-whisper
+piper-tts
+fastapi
+uvicorn

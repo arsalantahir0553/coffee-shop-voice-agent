@@ -1,0 +1,31 @@
+{
+  "shop_name": "Brew & Bean Coffee Co.",
+  "sizes": ["small", "medium", "large"],
+  "milks": ["whole", "skim", "oat", "almond", "soy"],
+  "add_ons": [
+    {"name": "vanilla syrup", "price": 0.50},
+    {"name": "caramel syrup", "price": 0.50},
+    {"name": "hazelnut syrup", "price": 0.50},
+    {"name": "extra shot", "price": 0.75},
+    {"name": "whipped cream", "price": 0.50}
+  ],
+  "drinks": [
+    {"name": "espresso", "base_price": {"small": 2.50, "medium": 2.75, "large": 3.00}, "hot_or_iced": ["hot"]},
+    {"name": "americano", "base_price": {"small": 2.75, "medium": 3.25, "large": 3.75}, "hot_or_iced": ["hot", "iced"]},
+    {"name": "latte", "base_price": {"small": 3.50, "medium": 4.00, "large": 4.50}, "hot_or_iced": ["hot", "iced"]},
+    {"name": "cappuccino", "base_price": {"small": 3.50, "medium": 4.00, "large": 4.50}, "hot_or_iced": ["hot"]},
+    {"name": "mocha", "base_price": {"small": 3.75, "medium": 4.25, "large": 4.75}, "hot_or_iced": ["hot", "iced"]},
+    {"name": "cold brew", "base_price": {"small": 3.25, "medium": 3.75, "large": 4.25}, "hot_or_iced": ["iced"]},
+    {"name": "drip coffee", "base_price": {"small": 2.00, "medium": 2.50, "large": 2.75}, "hot_or_iced": ["hot"]},
+    {"name": "chai latte", "base_price": {"small": 3.50, "medium": 4.00, "large": 4.50}, "hot_or_iced": ["hot", "iced"]},
+    {"name": "matcha latte", "base_price": {"small": 3.75, "medium": 4.25, "large": 4.75}, "hot_or_iced": ["hot", "iced"]},
+    {"name": "hot chocolate", "base_price": {"small": 3.00, "medium": 3.50, "large": 4.00}, "hot_or_iced": ["hot"]}
+  ],
+  "standard_questions": [
+    "for here or to go",
+    "hot or iced, if the drink supports both",
+    "what size",
+    "milk choice for milk-based drinks",
+    "any syrup or add-ons"
+  ]
+}
